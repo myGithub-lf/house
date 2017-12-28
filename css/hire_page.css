@@ -1,0 +1,137 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    background: #1d252e;
+}
+
+a:link, a:visited {
+    color: #ff8400;
+    text-decoration: underline;
+}
+
+a:active, a:hover {
+    color: #ff8400;
+    text-decoration: none;
+}
+
+#hirePage_container {
+    width: 960px;
+    margin: 0 auto;
+    border-left: 5px solid #c0d3e8;
+    border-right: 5px solid #c0d3e8;
+}
+
+    #hirePage_container #hirePage_top_panel {
+        width: 900px;
+        height: 110px;
+        padding: 0 30px;
+        background: #0a1521 url(images/templatemo_top_panel_bg.gif) repeat-x;
+    }
+
+#hirePage_top_panel #hirePage_header_section {
+    float: left;
+    width: 280px;
+    height: 110px;
+    background: #f17e02 url(images/templatemo_header_section_bg.gif) no-repeat top left;
+}
+
+#hirePage_header_section #hirePage_header {
+    margin-top: 35px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+#hirePage_top_panel #hirePage_menu_login_section {
+    float: right;
+    width: 610px;
+    height: 100px;
+}
+
+#hirePage_menu_login_section #hirePage_menu_section {
+    width: 610px;
+    height: 100px;
+}
+
+/* menu */
+#hirePage_menu_section ul {
+    width: 610px;
+    float: right;
+    margin: 0 0 0 90px;
+    padding: 10px 10px 0 10px;
+    list-style: none;
+    height: 100px;
+}
+
+    #hirePage_menu_section ul li {
+        display: inline;
+    }
+
+        #hirePage_menu_section ul li a {
+            float: left;
+            width: 150px;
+            padding: 30px 0;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: #4979af;
+            border-right: 1px solid #10243a;
+            height: 100px;
+        }
+
+#hirePage_menu_section li a:hover, #hirePage_menu_section li .current {
+    color: #ffffff;
+}
+/* end of menu */
+
+#hirePage_container .blank {
+    height: 30px;
+    clear: both;
+}
+
+#hirePage_container .list {
+    width: 900px;
+}
+
+.list .list_left {
+    float: left;
+    width: 280px;
+}
+
+.list .list_right {
+    float: left;
+    width: 480px;
+}
+
+    .list .list_right span {
+        font-size: 15px;
+    }
+
+.list_right .tags-bottom span {
+    background-color: gray;
+}
+
+.list .list_price {
+    float: left;
+    width: 140px;
+    margin-top: 35px;
+}
+
+    .list .list_price span {
+        font-size: 16px;
+        color: #ff0000;
+    }
+
+.list_price .unit-price {
+    font-size: 10px;
+    color: white;
+}
